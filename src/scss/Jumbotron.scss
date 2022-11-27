@@ -1,0 +1,92 @@
+.intro {
+  height: auto;
+  min-height: 100%;
+  color: white;
+  background: linear-gradient(to right top, #4b6584 0%, #487eb0 100%);
+  font-size: 200%;
+  text-align:center; 
+  .content {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 10px;
+    padding-top: 12%;
+    .logo {
+      font-family: Monoton;
+      font-size: 600%;
+      line-height: 1.2;
+      opacity: 0.6;
+      color: #dff9fb;
+    }
+    h1 {
+      line-height: 1.2;
+      padding-bottom: 20px;
+    }
+    p {
+      margin-bottom: 10px;
+    }
+    a {
+      color: white;
+      text-decoration: none;
+      margin: 10px;
+      transition: 0.3s;
+      &:hover {
+        opacity: 0.6;
+      }
+    }
+    a > svg {
+      font-size: 150%;
+    }
+    .btn-down {
+      display: none;
+      cursor: pointer;
+      background: transparent;
+      padding: 15px;
+      color: white;
+      border: none;
+      margin: 0 auto;
+      font-size: 120%;
+      margin-top: 5%;
+      -moz-animation: bounce 2s infinite;
+      -webkit-animation: bounce 2s infinite;
+      animation: bounce 2s infinite;
+      &:hover, &:focus {
+        opacity: 0.6;
+        outline: 0;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 800px) {
+  .intro {
+    .content {
+      padding: 12% 5% 5% 5%;
+      overflow: visible;
+      @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% {
+          transform: translateY(0);
+        }
+        40% {
+          transform: translateY(-30px);
+        }
+        60% {
+          transform: translateY(-15px);
+        }
+      }
+      .logo {
+        font-size: 450%;
+      }
+      .btn-down {
+        display: block;
+      }
+    }
+  }
+}
+@media only screen and (min-width: 801px) {
+  .intro {
+    .content {
+      .btn-down {
+        display: none;
+      }
+    }
+  }
+}
