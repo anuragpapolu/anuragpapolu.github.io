@@ -1,24 +1,30 @@
-import { useRef } from "react";
+import React, { useRef } from "react";
 import { Routes, Route, Outlet, Navigate } from "react-router-dom";
+import GoogleAnalyticsTracker from '../components/GoogleAnalyticsTracker';
 import Jumbotron from '../components/Jumbotron';
 import Navbar from '../components/Navbar';
 import { Work, Education, Projects } from '../components/Experiences';
 import Footer from '../components/Footer';
 import '../scss/App.scss';
 
+// Initialize routing and Google Analytics for page views
 export default function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Layout />}>
-        <Route index element={ <Work /> } />
-        <Route path="education" element={ <Education />} />
-        <Route path="projects" element={ <Projects />} />
-        <Route path="*" element={ <Navigate to="/"/> } />
-      </Route>
-    </Routes>
+    <>
+      <GoogleAnalyticsTracker/>
+      <Routes>
+        <Route path="/" element={<Layout />}>
+          <Route index element={ <Work /> } />
+          <Route path="education" element={ <Education />} />
+          <Route path="projects" element={ <Projects />} />
+          <Route path="*" element={ <Navigate to="/"/> } />
+        </Route>
+      </Routes>
+    </>
   );
 }
 
+// Initialize page layout 
 function Layout() {
   const mainContentRef = useRef(null)
   return (
@@ -26,8 +32,8 @@ function Layout() {
       <div className="column">
         <Jumbotron mainContentRef={ mainContentRef } />
       </div>
-      <div ref= { mainContentRef } className="column">
-        <Navbar/>
+      <div ref= { mainContentRef } className="column main-content">
+        <Navbar mainContentRef={ mainContentRef }/>
         <Outlet/>
         <Footer/>
        </div>

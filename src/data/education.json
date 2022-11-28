@@ -1,0 +1,22 @@
+[
+	{
+		"title": "Computer Science",
+		"startDate": "August 2016",
+		"endDate": "May 2020",
+		"notes": [
+			"Bachelor's Degree, UC Berkeley",
+			"Coursework in Machine Learning, Artificial Intelligence, User Interface Design, Computer Architecture, and Operating Systems"
+		]
+
+	},
+	{
+		"title": "Data Science",
+		"startDate": "August 2016",
+		"endDate": "May 2020",
+		"notes": [
+			"Bachelor's Degree, UC Berkeley",
+			"Domain Emphasis in Psychology & Cognition",
+			"Coursework in Computational Models of Cognition, Discrete Mathematics, Probability Theory, and Human Language Acquisition"
+		]
+	}
+]

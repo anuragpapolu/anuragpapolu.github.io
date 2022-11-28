@@ -1,0 +1,34 @@
+[
+	{
+		"title": "Twitter",
+		"startDate": "June 2020",
+		"endDate": "January 2023",
+		"notes": [
+			"Backend developer on the Twitter Product Analytics team working with Python, Scala, and SQL",
+			"Worked to integrate Google BigQuery Enterprise into Twitter’s existing engineering infrastructure",
+			"Built systems to automatically track schema, permissions, and retention of company data stored in BigQuery",
+			"Created compliance-enforcement application that deleted and blocked access to BigQuery tables that fail to meet compliance standards after an initial grace period"
+		]
+
+	},
+	{
+		"title": "MongoDB",
+		"startDate": "May 2019",
+		"endDate": "August 2019",
+		"notes": [
+			"Full-stack developer on the MongoDB Atlas product working with Java and React",
+			"Enabled Atlas users to securely connect to their databases via certificates",
+			"Added UI features to simplify certificate management for users of Atlas’s web portal"
+		]
+	},
+	{
+		"title": "Uber",
+		"startDate": "May 2018",
+		"endDate": "August 2018",
+		"notes": [
+			"Full-stack developer on the Uber Freight product working with Go and React",
+			"Built email reminder systems to relay payment information to Uber Freight truck drivers",
+			"Collaborated with UI/UX designers to add features to the Uber Freight Operations team’s internal dashboard"
+		]
+	}
+]

@@ -2,10 +2,6 @@
   font-family: 'Petrona';
   src: url(../fonts/Petrona-Regular.ttf);
 }
-@font-face {
-  font-family: 'Monoton';
-  src: url(../fonts/Monoton-Regular.ttf);
-}
 * {
   margin: 0px;
   padding: 0px;
@@ -18,15 +14,16 @@ html, body {
   font-family: 'Petrona', serif;
   line-height: 1.58;
   letter-spacing: -.004em;
-  #root, {
+  #root {
     width: 100%;
     height: 100%;
     .column {
       height: 100%;
       overflow-y: auto;
       overflow-x: hidden;
-      &:last-child {
-        background: #f8f8f8;
+      &.main-content {
+        background: #404258;
+        color: #f8f8f8;
       }
     }
     @media only screen and (max-width: 800px) {

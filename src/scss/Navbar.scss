@@ -4,7 +4,8 @@
   margin: 0 auto;
   width: 100%;
   margin-top: 0px;
-  background: white;
+  background: #50577a;
+  z-index: 200;
   &.sticky {
     position: fixed;
   }
@@ -12,21 +13,20 @@
     background: transparent;
     text-decoration: none; 
     font-family: inherit;
-    color: #4b6584;
+    color: white;
     width: 33%;
     font-size: 120%;
     padding: 15px 0px 15px 0px;
     display: inline-block;
     border: 0px;
-    border-bottom: 4px solid #eee;
-    border-right: 1px solid #eee;
+    border-bottom: 4px solid #6b728e;
+    border-right: 1px solid #6b728e;
     transition: 0.3s;
     cursor: pointer;
     &.active, &:hover, &:focus {
       outline: 0;
-      border-bottom: 4px solid #778ca3;
-      opacity: 0.8;
-      color: #778ca3;
+      border-bottom: 4px solid #a5b1c2;
+      color: #eeeeee;
     }
     &.active {
       pointer-events: none;
@@ -40,9 +40,9 @@
 @media only screen and (max-width: 800px) {
   .padding {
     height: 0px;
-  }
-  .padding-sticky {
-    height: 65px;
+    &.sticky {
+      height: 50px;
+    }
   }
 }
 @media only screen and (min-width: 800px) {
@@ -51,6 +51,6 @@
     width: inherit;
   }
   .padding {
-    height: 65px;
+    height: 50px;
   }
 }

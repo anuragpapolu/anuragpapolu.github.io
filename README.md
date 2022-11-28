@@ -1,3 +1,3 @@
-# Hi, I'm Anurag!
+# Hi, I'm Anurag! I'm an experienced full-stack Software Engineer.
 
-Welcome to my personal website & GitHub. I'm an experienced full-stack Software Engineer.
+Welcome to my personal website & GitHub. 
