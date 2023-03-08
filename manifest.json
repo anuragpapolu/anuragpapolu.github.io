@@ -1,0 +1,15 @@
+{
+  "short_name": "Anurag Papolu",
+  "name": "Anurag Papolu's Personal Website",
+  "icons": [
+    {
+      "src": "thumbnail.png",
+      "type": "image/png",
+      "sizes": "519x468"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#353b48",
+  "background_color": "#404258"
+}
