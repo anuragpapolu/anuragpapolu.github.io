@@ -1,5 +1,6 @@
 import React from "react";
 
+// Initialize Google Analytics tracker for page views
 export default function GoogleAnalyticsTracker() {
 	const trackerId = "G-449F02TC29"
 	window.dataLayer = window.dataLayer || [];

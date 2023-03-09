@@ -5,6 +5,7 @@ import educationExperiences from '../data/education';
 import projectExperiences from '../data/projects';
 import '../scss/Experiences.scss';
 
+// Display a list of experiences 
 function ExperiencesList({ icon, experiences }) {
   	return (
 		<div className="experiences">
@@ -19,6 +20,7 @@ function ExperiencesList({ icon, experiences }) {
   	);
 }
 
+// Display information on a specific experience 
 function ExperienceCard({ experience }) {
 	const { title, startDate, endDate, notes } = experience;
 	return (
@@ -40,6 +42,7 @@ function ExperienceCard({ experience }) {
 	)
 }
 
+// Display work experience 
 export function Work() {
 	return (
 		<ExperiencesList
@@ -49,6 +52,7 @@ export function Work() {
 	)
 }
 
+// Display education  
 export function Education() {
 	return (
 		<ExperiencesList
@@ -58,6 +62,7 @@ export function Education() {
 	)
 }
 
+// Display side project experience 
 export function Projects() {
 	return (
 		<ExperiencesList

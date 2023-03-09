@@ -1,7 +1,7 @@
 import React, { useRef } from "react";
 import { Routes, Route, Outlet, Navigate } from "react-router-dom";
 import GoogleAnalyticsTracker from '../components/GoogleAnalyticsTracker';
-import Jumbotron from '../components/Jumbotron';
+import Intro from '../components/Intro';
 import Navbar from '../components/Navbar';
 import { Work, Education, Projects } from '../components/Experiences';
 import Footer from '../components/Footer';
@@ -30,7 +30,7 @@ function Layout() {
   return (
     <>
       <div className="column">
-        <Jumbotron mainContentRef={ mainContentRef } />
+        <Intro mainContentRef={ mainContentRef } />
       </div>
       <div ref= { mainContentRef } className="column main-content">
         <Navbar mainContentRef={ mainContentRef }/>

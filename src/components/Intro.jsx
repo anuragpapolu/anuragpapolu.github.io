@@ -1,9 +1,10 @@
 import React from "react";
-import '../scss/Jumbotron.scss';
+import '../scss/Intro.scss';
 import { BsChevronCompactDown } from 'react-icons/bs';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
-export default function Jumbotron({ mainContentRef }) {
+// Display introduction and important links 
+export default function Intro({ mainContentRef }) {
   const scrollToMainContent = () => mainContentRef.current.scrollIntoView({ behavior: 'smooth' })    
   return (
 	  	<div className="intro">

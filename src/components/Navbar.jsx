@@ -2,6 +2,7 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 import '../scss/Navbar.scss';
 
+// Navigation bar for website
 export default class Navbar extends React.Component {
     constructor(props) {
         super(props);

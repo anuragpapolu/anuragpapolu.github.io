@@ -4,21 +4,20 @@
 		"startDate": "June 2020",
 		"endDate": "January 2023",
 		"notes": [
-			"Backend developer on the Twitter Product Analytics team working with Python, Scala, and SQL",
-			"Worked to integrate Google BigQuery Enterprise into Twitter’s existing engineering infrastructure",
-			"Built systems to automatically track schema, permissions, and retention of company data stored in BigQuery",
-			"Created compliance-enforcement application that deleted and blocked access to BigQuery tables that fail to meet compliance standards after an initial grace period"
+			"Infrastructure Engineer on the Twitter Product Analytics team working with Python, Scala, and SQL",
+			"Helped Twitter become the largest BigQuery customer on Google Cloud, enabling multi-million dollar savings",
+			"Built a high-traffic distributed system to automatically track schema,  permissions, and retention of ~0.2 million tables and several  petabytes worth of company data stored in Twitter’s BigQuery Enterprise Organization", 
+			"Created a compliance-enforcement application that deleted Twitter-owned BigQuery tables that failed to meet company data safety standards, helping the company keep its data secure and aiding during possible legal audits"
 		]
-
 	},
 	{
 		"title": "MongoDB",
 		"startDate": "May 2019",
 		"endDate": "August 2019",
 		"notes": [
-			"Full-stack developer on the MongoDB Atlas product working with Java and React",
-			"Enabled Atlas users to securely connect to their databases via certificates",
-			"Added UI features to simplify certificate management for users of Atlas’s web portal"
+			"Product Engineer on the MongoDB Atlas product working with Java and React", 
+			"Enabled all ~0.2 million Atlas users worldwide to securely connect to their personal database via an X509 certificate, which is orders of magnitude more secure than the default option of plaintext passwords",
+			"Collaborated with UI designers to add features to simplify certificate management for users of Atlas’s web portal"
 		]
 	},
 	{
@@ -26,9 +25,19 @@
 		"startDate": "May 2018",
 		"endDate": "August 2018",
 		"notes": [
-			"Full-stack developer on the Uber Freight product working with Go and React",
-			"Built email reminder systems to relay payment information to Uber Freight truck drivers",
-			"Collaborated with UI/UX designers to add features to the Uber Freight Operations team’s internal dashboard"
+			"Product Engineer on the Uber Freight product working with GoLang and React", 
+			"Built email reminder systems to relay payment updates to all ~0.3 million Uber Freight truck drivers nationwide, improving upon the freight industry’s typical communication delay from > 30 days  to < 24 hours",  
+			"Collaborated with UI designers to add features to the Uber Freight Operations team’s internal dashboard"
+		]
+	},
+	{
+		"title": "Pear VC",
+		"startDate": "May 2017",
+		"endDate": "August 2017",
+		"notes": [
+			"Member of Pear VC’s Summer 2017 Startup Launchpad Program, where our team successfully raised pre-seed capital and launched a pilot program with paying users",
+			"Co-founder of Goodpoint, a platform where users can get professional feedback on important documents", 
+			"Built the entire web platform from scratch using Node.JS, React, MongoDB, Amazon S3, and Amazon EC2"
 		]
 	}
 ]
