@@ -12,12 +12,6 @@ export default function Intro({ mainContentRef }) {
           <img src="logo.png" className="logo" />
 		      <h1 className="header">Anurag Papolu</h1>
 		      <p className="center">Full-Stack Developer</p>
-          <a href="https://github.com/anuragpapolu" target="_blank" rel="noopener noreferrer">
-            <FaGithub/>
-          </a>
-          <a href="https://www.linkedin.com/in/anuragpapolu/" target="_blank" rel="noopener noreferrer">
-            <FaLinkedin/>
-          </a>
           <button className="btn-down" onClick={ scrollToMainContent }>
             <BsChevronCompactDown/>
           </button>
