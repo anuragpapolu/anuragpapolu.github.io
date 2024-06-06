@@ -26,12 +26,15 @@ function ExperiencesList({ icon, experiences }) {
 
 // Display information on a specific experience
 function ExperienceCard({ experience }) {
-  const { title, startDate, endDate, notes } = experience;
+  const { title, role, startDate, endDate, notes } = experience;
   return (
     <div className="experience-item">
-      <p className="title">{title}</p>
+      <p className="title">
+        {title}
+        <small> - {role}</small>
+      </p>
       <small>
-        {role} | {startDate} - {endDate}
+        {startDate} - {endDate}
       </small>
       <ul>
         {notes.map((note, index) => (
