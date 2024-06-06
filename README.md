@@ -1,1 +1,0 @@
-Welcome to my personal website! I built it from scratch using React.JS and Sass. 
