@@ -1,53 +1,57 @@
 [
-	{
-		"title": "Spotify",
-		"startDate": "May 2023",
-		"endDate": "Present",
-		"notes": [
-			"Engineer on the Spotify Native Ads Team working with Spark, Scio, Storm, and Google Cloud Platform",
-			"Helping conceptualize and implement new ways of understanding the interplay between user happiness, track performance, and artist needs",
-			"Building large-scale batch and real-time data pipelines to allow high-quality data consumption for various teams at Spotify"
-		]
-	},
-	{
-		"title": "Twitter",
-		"startDate": "June 2020",
-		"endDate": "January 2023",
-		"notes": [
-			"Engineer on the Twitter Product Analytics team working with Python, Scala, and SQL",
-			"Helped Twitter become the largest BigQuery customer on Google Cloud, enabling multi-million dollar savings",
-			"Built a high-traffic distributed system to automatically track schema,  permissions, and retention of ~0.2 million tables and several  petabytes worth of company data stored in Twitter’s BigQuery Enterprise Organization", 
-			"Created a compliance-enforcement application that deleted Twitter-owned BigQuery tables that failed to meet company data safety standards, helping the company keep its data secure and aiding during possible legal audits"
-		]
-	},
-	{
-		"title": "MongoDB",
-		"startDate": "May 2019",
-		"endDate": "August 2019",
-		"notes": [
-			"Engineer on the MongoDB Atlas product working with Java and React", 
-			"Enabled all ~0.2 million Atlas users worldwide to securely connect to their personal database via an X509 certificate, which is orders of magnitude more secure than the default option of plaintext passwords",
-			"Collaborated with UI designers to add features to simplify certificate management for users of Atlas’s web portal"
-		]
-	},
-	{
-		"title": "Uber",
-		"startDate": "May 2018",
-		"endDate": "August 2018",
-		"notes": [
-			"Engineer on the Uber Freight product working with GoLang and React", 
-			"Built email reminder systems to relay payment updates to all ~0.3 million Uber Freight truck drivers nationwide, improving upon the freight industry’s typical communication delay from > 30 days  to < 24 hours",  
-			"Collaborated with UI designers to add features to the Uber Freight Operations team’s internal dashboard"
-		]
-	},
-	{
-		"title": "Pear VC",
-		"startDate": "May 2017",
-		"endDate": "August 2017",
-		"notes": [
-			"Member of Pear VC’s Summer 2017 Startup Launchpad Program, where our team successfully raised pre-seed capital and launched a pilot program with paying users",
-			"Co-founder of Goodpoint, a platform where users can get professional feedback on important documents", 
-			"Built the entire web platform from scratch using Node.JS, React, MongoDB, Amazon S3, and Amazon EC2"
-		]
-	}
+  {
+    "title": "Spotify",
+    "role": "Software Engineer II",
+    "startDate": "May 2023",
+    "endDate": "Present",
+    "notes": [
+      "Engineer on the Spotify Native Ads Team architecting large-scale batch and real-time data pipelines that process ~100,000 promotional campaigns and reach ~10 million listeners monthly",
+      "Technical Lead for a project that allowed promotional campaigns to be created with 24 hours notice. Devised architecture and scheduling optimizations that reduced campaign processing time from ~20 hours to ~4 hours",
+      "Established standards for systematically auditing, scale-testing, and optimizing Native Ads data pipelines that have lead to significant pipeline cost savings, runtime latency decreases, and hours of developer time saved debugging failures during on-call"
+    ]
+  },
+  {
+    "title": "Twitter",
+    "role": "Software Engineer I",
+    "startDate": "June 2020",
+    "endDate": "January 2023",
+    "notes": [
+      "Engineer on the Twitter Product Analytics team working to support Twitter as it became the largest BigQuery customer on Google Cloud, enabling multi-million dollar savings",
+      "Built a high-traffic distributed system to automatically track schema, permissions, and retention of ~1 million tables and several petabytes worth of company data stored in Twitter’s BigQuery Enterprise Organization",
+      "Created a compliance-enforcement application that deleted Twitter-owned BigQuery tables that failed to meet company data safety standards, helping the company keep its data secure and aiding during possible legal audits"
+    ]
+  },
+  {
+    "title": "MongoDB",
+    "role": "Software Engineering Intern",
+    "startDate": "May 2019",
+    "endDate": "August 2019",
+    "notes": [
+      "Engineer on the MongoDB Atlas product working with Java and React, allowing users to provision and access hosted MongoDB database instances through the web portal",
+      "Enabled Atlas worldwide to securely connect to their personal database via an X509 certificate, which is orders of magnitude more secure than the default option of plaintext passwords",
+      "Collaborated with UI designers to add features to simplify certificate management for the over 50,000 users of Atlas’s web portal"
+    ]
+  },
+  {
+    "title": "Uber",
+    "role": "Software Engineering Intern",
+    "startDate": "May 2018",
+    "endDate": "August 2018",
+    "notes": [
+      "Engineer on the Uber Freight product working with GoLang and React",
+      "Built email reminder systems to relay payment updates to the ~500,000 Uber Freight truck drivers nationwide",
+      "Improved the speed of freight payment notifications to just under 24 hours, representing a 95% increase in speed - it typically takes over 30 days after completing a delivery for a truck driver to receive information about their payments"
+    ]
+  },
+  {
+    "title": "Pear VC",
+    "role": "Fellowship",
+    "startDate": "May 2017",
+    "endDate": "August 2017",
+    "notes": [
+      "Member of Pear VC’s Summer 2017 Startup Launchpad Program, where our team successfully raised pre-seed capital and launched a pilot program with paying users",
+      "Co-founded Goodpoint, a platform where users can get professional feedback on important documents",
+      "Served as Technical Lead and built the entire web platform from scratch using Node.JS, React, MongoDB, Amazon S3, and Amazon EC2"
+    ]
+  }
 ]
